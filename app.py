@@ -114,7 +114,7 @@ def login():
 def login_get():
     return show_the_login_form()
 
-@app.post('/login')
+@app.post('/lteste')
 def login_post():
     return do_the_login_form()
 
